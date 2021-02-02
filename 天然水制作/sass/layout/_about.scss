@@ -1,0 +1,47 @@
+.about-box {
+    &__q {
+        font-size: 2rem;
+        text-align: left;
+        padding-bottom: 1rem;
+        white-space: nowrap;
+        @include mq(sp) {
+            font-size: 1.5rem;
+        }
+    }
+    &__a {
+        box-sizing: border-box;
+        padding: 1.6rem;
+        background-color: $color-blue;
+        border-radius: 1rem;
+        line-height: 2;
+        font-size: 1.6rem;
+        text-align: left;
+        min-height: 22rem;
+        box-shadow: 2px 2px 4px -2px gray;
+        @include mq(tab) {
+            width: 25rem;
+        }
+        @include mq(sp){
+          height: auto;
+          width: auto;
+        }
+    }
+    &__link {
+        color: white;
+    }
+}
+.bold {
+    font-weight: bold;
+}
+.skinBody {
+    background: $color-green;
+}
+.skinBody2 {
+    background: url("http://detarame.moo.jp/sample/img/aw1.png") repeat 0 0;
+}
+.skinBody3 {
+    background: url("http://detarame.moo.jp/sample/img/aw2.png") repeat 0 0;
+}
+.skinFrame {
+    background: url("http://detarame.moo.jp/sample/img/aw3.png") repeat 0 0;
+}
